@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const HeaderTop = styled.div`
+const StyledHeader = styled.header`
 	display: flex;
 	align-items: center;
-	padding-block: 2rem;
+	padding-top: 2rem;
 `;
 
-export { HeaderTop };
+export { StyledHeader };

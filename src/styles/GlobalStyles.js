@@ -18,9 +18,6 @@ const GlobalStyles = createGlobalStyle`
     padding:0 1.5rem;
     color: ${COLORS.darkBlue};
     font-family: 'Public Sans', sans-serif;
-    background-image: url('/assets/shared/desktop/bg-pattern-circle.svg');
-	  background-position: center -545px;
-	  background-repeat: no-repeat;
   }
 
   h1,
