@@ -1,13 +1,10 @@
 import styled from 'styled-components';
 import { COLORS } from '../../constants/colors';
 
-const StyledTitle = styled.h2`
-	font-size: 2.25rem;
-	margin-block: 0;
-	letter-spacing: -0.25px;
-	font-weight: lighter;
+const StyledText = styled.p`
 	text-align: center;
+	line-height: 1.75rem;
 	color: ${({ light }) => (light ? COLORS.white : COLORS.darkBlue)};
 `;
 
-export { StyledTitle };
+export { StyledText };

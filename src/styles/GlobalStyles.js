@@ -15,7 +15,6 @@ const GlobalStyles = createGlobalStyle`
 
   body{
     margin: 0;
-    padding:0 1.5rem;
     color: ${COLORS.darkBlue};
     font-family: 'Public Sans', sans-serif;
   }

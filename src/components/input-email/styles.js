@@ -16,15 +16,4 @@ const StyledInput = styled.input`
 	box-shadow: 10px 10px 25px ${COLORS.transparentBlue};
 `;
 
-const StyledButton = styled.a`
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 3rem;
-	border-radius: 1.5rem;
-	color: ${COLORS.white};
-	background-color: ${COLORS.darkPink};
-`;
-
-export { StyledInputField, StyledInput, StyledButton };
+export { StyledInputField, StyledInput };
