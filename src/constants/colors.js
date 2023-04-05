@@ -1,4 +1,5 @@
 export const COLORS = {
+	bgColor: '#EDF3F8',
 	darkPink: '#ba4270',
 	white: '#fbfcfe',
 	blue: '#36536b',

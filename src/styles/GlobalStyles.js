@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 import { COLORS } from '../constants/colors';
 
+const { darkBlue, bgColor } = COLORS;
+
 const GlobalStyles = createGlobalStyle`
   *,
   *::after,
@@ -15,7 +17,8 @@ const GlobalStyles = createGlobalStyle`
 
   body{
     margin: 0;
-    color: ${COLORS.darkBlue};
+    color: ${darkBlue};
+    background-color: ${bgColor};
     font-family: 'Public Sans', sans-serif;
   }
 

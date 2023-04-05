@@ -33,7 +33,7 @@ const StyledLogos = styled.div`
 `;
 
 const StyledMobiles = styled.img`
-	width: 90%;
+	width: 100%;
 `;
 
 export {

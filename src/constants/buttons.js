@@ -1,4 +1,5 @@
 export const BUTTONS = {
 	PRIMARY: 'primary',
-	GHOST: 'ghost'
+	GHOST: 'ghost',
+	SUBMIT: 'submit'
 };

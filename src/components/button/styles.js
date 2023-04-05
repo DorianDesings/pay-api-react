@@ -24,4 +24,13 @@ const GhostButton = styled(StyledButton)`
 	margin-right: auto;
 `;
 
-export { PrimaryButton, GhostButton };
+const SubmitButton = styled(StyledButton)`
+	color: ${COLORS.white};
+	border: 1px solid currentColor;
+	background-color: transparent;
+	width: 8.125rem;
+	margin-left: auto;
+	margin-right: auto;
+`;
+
+export { PrimaryButton, GhostButton, SubmitButton };
